@@ -1,12 +1,12 @@
 name: Feature Request
-description: Propose a new feature for :package_name
+description: Propose a new feature for filament-password-input
 title: "[Feature Request]: "
 labels: [feature request]
 body:
     - type: markdown
       attributes:
           value: |
-              Thanks for proposing a new feature for :package_name!
+              Thanks for proposing a new feature for filament-password-input!
     - type: textarea
       id: feature-description
       attributes:

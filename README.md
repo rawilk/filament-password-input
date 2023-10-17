@@ -1,22 +1,12 @@
-# :package_name
+# filament-password-input
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-![Tests](https://github.com/:vendor_slug/:package_slug/workflows/Tests/badge.svg?style=flat-square)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/:vendor_slug/:package_slug?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![License](https://img.shields.io/github/license/:vendor_slug/:package_slug?style=flat-square)](https://github.com/:vendor_slug/:package_slug/blob/main/LICENSE.md)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rawilk/filament-password-input.svg?style=flat-square)](https://packagist.org/packages/rawilk/filament-password-input)
+![Tests](https://github.com/rawilk/filament-password-input/workflows/Tests/badge.svg?style=flat-square)
+[![Total Downloads](https://img.shields.io/packagist/dt/rawilk/filament-password-input.svg?style=flat-square)](https://packagist.org/packages/rawilk/filament-password-input)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/rawilk/filament-password-input?style=flat-square)](https://packagist.org/packages/rawilk/filament-password-input)
+[![License](https://img.shields.io/github/license/rawilk/filament-password-input?style=flat-square)](https://github.com/rawilk/filament-password-input/blob/main/LICENSE.md)
 
-## <!--delete-->
-
-This repo can be used to scaffold a Laravel package. Follow these steps to get started:
-
-1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run `php ./configure.php` to run the script that will replace all placeholders throughout all the files.
-3. Remove this block of text.
-
----
-
-<!--/delete-->
+## 
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
@@ -25,29 +15,29 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require rawilk/filament-password-input
 ```
 
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-migrations"
+php artisan vendor:publish --tag="filament-password-input-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-config"
+php artisan vendor:publish --tag="filament-password-input-config"
 ```
 
-You can view the default configuration here: https://github.com/:vendor_slug/:package_slug/blob/main/config/:package_slug.php
+You can view the default configuration here: https://github.com/rawilk/filament-password-input/blob/main/config/filament-password-input.php
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton;
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$filament-password-input = new Rawilk\FilamentPasswordInput;
+echo $filament-password-input->echoPhrase('Hello, Rawilk!');
 ```
 
 ## Scripts
@@ -88,7 +78,7 @@ Please review [my security policy](.github/SECURITY.md) on how to report securit
 
 ## Credits
 
--   [:author_name](https://github.com/:author_username)
+-   [Randall Wilk](https://github.com/rawilk)
 -   [All Contributors](../../contributors)
 
 ## License

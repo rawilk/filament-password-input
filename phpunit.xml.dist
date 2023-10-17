@@ -6,7 +6,7 @@
     colors="true"
 >
     <testsuites>
-        <testsuite name=":package_name Test Suite">
+        <testsuite name="filament-password-input Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
