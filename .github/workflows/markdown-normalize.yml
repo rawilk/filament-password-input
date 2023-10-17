@@ -1,0 +1,22 @@
+name: Normalize Markdown
+
+on:
+    push:
+        paths:
+            - "*.md"
+
+permissions:
+    contents: write
+
+jobs:
+    normalize:
+        timeout-minutes: 1
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Git checkout
+                uses: actions/checkout@v3
+
+            -   name: Prettify markdown
+                uses: creyD/prettier_action@v4.3
+                with:
+                    prettier_options: --write **/*.md
