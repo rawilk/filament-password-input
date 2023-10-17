@@ -6,14 +6,16 @@
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/:vendor_slug/:package_slug?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
 [![License](https://img.shields.io/github/license/:vendor_slug/:package_slug?style=flat-square)](https://github.com/:vendor_slug/:package_slug/blob/main/LICENSE.md)
 
-<!--delete-->
----
+## <!--delete-->
+
 This repo can be used to scaffold a Laravel package. Follow these steps to get started:
 
 1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton.
 2. Run `php ./configure.php` to run the script that will replace all placeholders throughout all the files.
 3. Remove this block of text.
+
 ---
+
 <!--/delete-->
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
@@ -34,6 +36,7 @@ php artisan migrate
 ```
 
 You can publish the config file with:
+
 ```bash
 php artisan vendor:publish --tag=":package_slug-config"
 ```
@@ -42,7 +45,7 @@ You can view the default configuration here: https://github.com/:vendor_slug/:pa
 
 ## Usage
 
-``` php
+```php
 $skeleton = new VendorName\Skeleton;
 echo $skeleton->echoPhrase('Hello, VendorName!');
 ```
@@ -50,6 +53,7 @@ echo $skeleton->echoPhrase('Hello, VendorName!');
 ## Scripts
 
 ### Setup
+
 For convenience, you can run the setup bin script for easy installation for local development.
 
 ```bash
@@ -57,6 +61,7 @@ For convenience, you can run the setup bin script for easy installation for loca
 ```
 
 ### Formatting
+
 Although formatting is done automatically via workflow, you can format php code locally before committing with a composer script:
 
 ```bash
@@ -65,7 +70,7 @@ composer format
 
 ## Testing
 
-``` bash
+```bash
 composer test
 ```
 
@@ -83,8 +88,8 @@ Please review [my security policy](.github/SECURITY.md) on how to report securit
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
-- [All Contributors](../../contributors)
+-   [:author_name](https://github.com/:author_username)
+-   [All Contributors](../../contributors)
 
 ## License
 
