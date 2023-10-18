@@ -13,3 +13,7 @@ test('strict types are used')
 test('strict types are used in tests')
     ->expect('Rawilk\FilamentPasswordInput\Tests')
     ->toUseStrictTypes();
+
+test('only traits are put in the Concerns directory')
+    ->expect('Rawilk\FilamentPasswordInput\Concerns')
+    ->toBeTraits();

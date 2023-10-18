@@ -23,6 +23,8 @@
     <php>
         <server name="DB_CONNECTION" value="sqlite"/>
         <server name="DB_DATABASE" value=":memory:"/>
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_KEY" value="base64:uX1uJ9x7RpEoPz8U52f4tuuUMWxt3/36N8WIuFrKZFk="/>
         <env name="RAY_ENABLED" value="(true)"/>
         <env name="SEND_CACHE_TO_RAY" value="(false)"/>
         <env name="SEND_DUMPS_TO_RAY" value="(true)"/>
