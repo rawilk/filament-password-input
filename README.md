@@ -11,9 +11,9 @@
 `filament-password-input` is a package built for [Filament](https://filamentphp.com) that provides an enhanced password input form component that offers you the ability to add the following
 features to your password inputs:
 
-- Reveal password toggle
-- Copy to clipboard
-- Generate new password button
+-   Reveal password toggle
+-   Copy to clipboard
+-   Generate new password button
 
 ## Installation
 
@@ -39,7 +39,7 @@ public function form(Form $form): Form
         ->schema([
             // ...
             Password::make('password')
-                ->label('Password'),        
+                ->label('Password'),
         ]);
 }
 ```
