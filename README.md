@@ -6,9 +6,14 @@
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/rawilk/filament-password-input?style=flat-square)](https://packagist.org/packages/rawilk/filament-password-input)
 [![License](https://img.shields.io/github/license/rawilk/filament-password-input?style=flat-square)](https://github.com/rawilk/filament-password-input/blob/main/LICENSE.md)
 
-##
+![social image](https://banners.beyondco.de/Filament%20Password%20Input.png?theme=light&packageManager=composer+require&packageName=rawilk%2Ffilament-password-input&pattern=architect&style=style_1&description=Enhanced+password+input+component+for+filament.&md=1&showWatermark=0&fontSize=100px&images=lock-closed)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+`filament-password-input` is a package built for [Filament](https://filamentphp.com) that provides an enhanced password input form component that offers you the ability to add the following
+features to your password inputs:
+
+- Reveal password toggle
+- Copy to clipboard
+- Generate new password button
 
 ## Installation
 
@@ -18,27 +23,32 @@ You can install the package via composer:
 composer require rawilk/filament-password-input
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="filament-password-input-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="filament-password-input-config"
-```
-
-You can view the default configuration here: https://github.com/rawilk/filament-password-input/blob/main/config/filament-password-input.php
+That's it. There is no configuration file or migrations necessary for the package.
 
 ## Usage
 
+Inside a form schema, you can use the `Password` input like this:
+
 ```php
-$filament-password-input = new Rawilk\FilamentPasswordInput;
-echo $filament-password-input->echoPhrase('Hello, Rawilk!');
+use Rawilk\FilamentPasswordInput\Password;
+use Filament\Forms\Form;
+
+public function form(Form $form): Form
+{
+    return $form
+        ->schema([
+            // ...
+            Password::make('password')
+                ->label('Password'),        
+        ]);
+}
 ```
+
+The code above will render a password input inside the form with a toggle button to show and hide the password.
+
+![base input](docs/images/base-input.png)
+
+![base input unmasked](docs/images/base-input-unmasked.png)
 
 ## Scripts
 
@@ -49,6 +59,10 @@ For convenience, you can run the setup bin script for easy installation for loca
 ```bash
 ./bin/setup.sh
 ```
+
+### Build
+
+Any time changes are made to the blade file, the `./bin/build.sh` script should be run so our css can be recompiled.
 
 ### Formatting
 
