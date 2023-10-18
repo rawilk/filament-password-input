@@ -13,8 +13,8 @@ use Rawilk\FilamentPasswordInput\Concerns\CanRevealPassword;
 class Password extends TextInput
 {
     use CanCopyToClipboard;
-    use CanRevealPassword;
     use CanRegeneratePassword;
+    use CanRevealPassword;
 
     protected string $view = 'filament-password-input::password';
 
