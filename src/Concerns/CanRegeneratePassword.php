@@ -82,7 +82,7 @@ trait CanRegeneratePassword
 
     public function getRegeneratePasswordIcon(): string
     {
-        return $this->evaluate($this->regeneratePasswordIcon) ?? 'heroicon-m-arrow-path';
+        return $this->evaluate($this->regeneratePasswordIcon) ?? 'heroicon-o-key';
     }
 
     public function getRegeneratePasswordIconColor(): string|array|null
