@@ -366,8 +366,8 @@ Please review [my security policy](.github/SECURITY.md) on how to report securit
 
 ## Alternatives
 
-- [papalardo/filament-password-input](https://github.com/papalardo/filament-password-input)
-- [phpsa/filament-password-reveal](https://github.com/phpsa/filament-password-reveal)
+-   [papalardo/filament-password-input](https://github.com/papalardo/filament-password-input)
+-   [phpsa/filament-password-reveal](https://github.com/phpsa/filament-password-reveal)
 
 ## License
 
