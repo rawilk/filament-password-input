@@ -61,7 +61,7 @@
             ])>
                 <x-filament::input
                     :attributes="
-                        \Filament\Support\prepare_inherited_attributes($getExtraAttributeBag())
+                        \Filament\Support\prepare_inherited_attributes($getExtraInputAttributeBag())
                             ->merge($extraAlpineAttributes, escape: false)
                             ->merge([
                                 'class' => 'fi-pw-input',
