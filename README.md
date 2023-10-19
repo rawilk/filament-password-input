@@ -11,9 +11,9 @@
 `filament-password-input` is a package built for [Filament](https://filamentphp.com) that provides an enhanced password input form component that offers you the ability to add the following
 features to your password inputs:
 
-- Reveal password toggle
-- Copy to clipboard
-- Generate new password button
+-   Reveal password toggle
+-   Copy to clipboard
+-   Generate new password button
 
 ## Installation
 
@@ -51,7 +51,7 @@ public function form(Form $form): Form
         ->schema([
             // ...
             Password::make('password')
-                ->label('Password'),        
+                ->label('Password'),
         ]);
 }
 ```
@@ -74,7 +74,7 @@ public function form(Form $form): Form
             // ...
             Password::make('password')
                 ->label('Password')
-                ->canRevealPassword(false),        
+                ->canRevealPassword(false),
         ]);
 }
 ```
@@ -86,7 +86,7 @@ If you want to use different icons for the on/off state of the password reveal t
 ```php
 Password::make('password')
     ->showPasswordIcon('heroicon-o-eye')
-    ->hidePasswordIcon('heroicon-o-eye-off'),   
+    ->hidePasswordIcon('heroicon-o-eye-off'),
 ```
 
 Like many of the other methods available on this input, you may use a closure to dynamically set the icon instead of passing
@@ -100,7 +100,7 @@ and `filament-password-input::password.actions.reveal.hide` language keys, or by
 ```php
 Password::make('password')
     ->showPasswordText('Show password')
-    ->hidePasswordText('Hide password'),   
+    ->hidePasswordText('Hide password'),
 ```
 
 ## Copy to Clipboard
@@ -311,7 +311,7 @@ class AppServiceProvider extends ServiceProvider
                 ->maxLength(24)
                 ->copyable()
                 ->copyIcon('heroicon-o-clipboard');
-                // ->...    
+                // ->...
         });
     }
 }
