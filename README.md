@@ -349,20 +349,20 @@ composer test
 
 ## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+Please see [CHANGELOG](https://github.com/rawilk/filament-password-input/blob/main/CHANGELOG.md) for more information on what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/rawilk/filament-password-input/blob/main/.github/CONTRIBUTING.md) for details.
 
 ## Security
 
-Please review [my security policy](.github/SECURITY.md) on how to report security vulnerabilities.
+Please review [my security policy](https://github.com/rawilk/filament-password-input/blob/main/.github/SECURITY.md) on how to report security vulnerabilities.
 
 ## Credits
 
 -   [Randall Wilk](https://github.com/rawilk)
--   [All Contributors](../../contributors)
+-   [All Contributors](https://github.com/rawilk/filament-password-input/graphs/contributors)
 
 ## Alternatives
 
@@ -371,4 +371,4 @@ Please review [my security policy](.github/SECURITY.md) on how to report securit
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/rawilk/filament-password-input/blob/main/LICENSE.md) for more information.
