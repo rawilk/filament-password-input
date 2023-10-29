@@ -208,6 +208,8 @@ Password::make('password')
     }),
 ```
 
+Now when the button is clicked, `my-custom-password` will be filled into the input instead.
+
 ### Password Max Length
 
 When using the default password generator (`Str::password()`), we will tell it to use the `maxLength()` that is set on the input. This means that
@@ -221,8 +223,6 @@ Password::make('password')
 ```
 
 > **Note:** Due to how Laravel's `Str::password()` helper works, the password max length must be a minimum of 3 characters long.
-
-Now when the button is clicked, `my-custom-password` will be filled into the input instead.
 
 ### Button Icon
 
