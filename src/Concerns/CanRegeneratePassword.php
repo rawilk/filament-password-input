@@ -111,7 +111,7 @@ trait CanRegeneratePassword
 
         $maxLength = $this->getMaxLength() ?? 32;
 
-        return Str::password($maxLength);
+        return Str::password(max(3, $maxLength));
     }
 
     public function getRegeneratePasswordAction(): Action

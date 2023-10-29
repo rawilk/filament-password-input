@@ -63,10 +63,21 @@ it('accepts a custom callback to generate a new password with', function () {
 
 it("respects the input's maxlength when generating a new password with the default generator", function () {
     $input = Password::make('password')
-        ->maxlength(2);
+        ->maxlength(3);
 
-    expect($input->generateNewSecret(null))->toHaveLength(2);
+    expect($input->generateNewSecret(null))->toHaveLength(3);
 });
+
+test('a minimum of 3 characters is required when using the default password generator helper on the string class', function (int $minLength) {
+    $input = Password::make('password')
+        ->maxLength($minLength);
+
+    expect($input->generateNewSecret(null))->toHaveLength(3);
+})->with([
+    0,
+    1,
+    2,
+]);
 
 class CanRegenerateWithButton extends Livewire
 {
