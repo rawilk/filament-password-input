@@ -58,7 +58,7 @@ public function form(Form $form): Form
 
 The code above will render a password input inside the form with a toggle button to show and hide the password.
 
-![base input](docs/images/base-input.png)
+![base input](https://github.com/rawilk/filament-password-input/raw/main/docs/images/base-input.png)
 
 If you want to render a normal password input without the toggle, you may also do that with this field. The following code
 will render the password input without the toggle button inside it:
@@ -113,7 +113,7 @@ Password::make('password')
     ->copyable(),
 ```
 
-![copyable input](docs/images/input-with-copy.png)
+![copyable input](https://github.com/rawilk/filament-password-input/raw/main/docs/images/input-with-copy.png)
 
 > **Note:** This button will not show up if the input is disabled.
 
@@ -185,7 +185,7 @@ Password::make('password')
     ->regeneratePassword(),
 ```
 
-![regenerate password](docs/images/input-with-generate.png)
+![regenerate password](https://github.com/rawilk/filament-password-input/raw/main/docs/images/input-with-generate.png)
 
 > **Note:** This button will not show up if the input is disabled or readonly.
 
@@ -291,7 +291,7 @@ Password::make('password')
     ->regeneratePasswordIconColor('primary'),
 ```
 
-![kitchen sink](docs/images/kitchen-sink.png)
+![kitchen sink](https://github.com/rawilk/filament-password-input/raw/main/docs/images/kitchen-sink.png)
 
 ## Global Configuration
 
