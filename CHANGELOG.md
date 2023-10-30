@@ -13,7 +13,7 @@ All notable changes to `filament-password-input` will be documented in this file
 
 - @EGYWEB-Mohamed made their first contribution in https://github.com/rawilk/filament-password-input/pull/3
 
-**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.0.1...v.1.0.2
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.0.1...v.1.1.0
 
 ## v1.0.1 - 2023-10-19
 
