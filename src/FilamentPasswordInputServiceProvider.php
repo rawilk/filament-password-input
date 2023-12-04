@@ -11,6 +11,8 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 final class FilamentPasswordInputServiceProvider extends PackageServiceProvider
 {
+    public const PACKAGE_ID = 'rawilk/filament-password-input';
+
     public function configurePackage(Package $package): void
     {
         $package
@@ -23,9 +25,9 @@ final class FilamentPasswordInputServiceProvider extends PackageServiceProvider
     {
         FilamentAsset::register(
             assets: [
-                Css::make('filament-password-input', __DIR__ . '/../resources/dist/app.css'),
+                Css::make('filament-password-input', __DIR__ . '/../resources/dist/app.css')->loadedOnRequest(),
             ],
-            package: 'rawilk/filament-password-input',
+            package: self::PACKAGE_ID,
         );
     }
 }

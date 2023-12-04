@@ -38,6 +38,7 @@
                 maskMessage: @js($getHidePasswordText()),
             @endif
         }"
+        @include('filament-password-input::partials.load-css')
     >
         <x-filament::input.wrapper
             :disabled="$isDisabled"
