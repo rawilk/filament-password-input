@@ -2,6 +2,18 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v1.1.2 - 2023-12-26
+
+### What's Changed
+
+* European Portuguese by @Corvisier in https://github.com/rawilk/filament-password-input/pull/7
+
+### New Contributors
+
+* @Corvisier made their first contribution in https://github.com/rawilk/filament-password-input/pull/7
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.1.1...v1.1.2
+
 ## v1.1.1 - 2023-12-04
 
 ### What's Changed
