@@ -2,6 +2,14 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v1.1.3 - 2023-12-28
+
+### What's Changed
+
+* Renamed folder name (for pt) to match Filaments i18n structure by @Corvisier in https://github.com/rawilk/filament-password-input/pull/9
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.1.2...v1.1.3
+
 ## v1.1.2 - 2023-12-26
 
 ### What's Changed
