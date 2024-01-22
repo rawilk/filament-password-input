@@ -14,9 +14,11 @@ test('all three actions can be used at the same time', function () {
     registerComponent(PasswordWithAllThree::class);
 
     get('/_test')
-        ->assertElementExists('.fi-pw-input-wrapper', function (AssertElement $wrapper) {
+        ->assertElementExists('.fi-input-wrp', function (AssertElement $wrapper) {
             $wrapper
-                ->contains('.fi-pw-reveal-button')
+                ->contains('.fi-icon-btn', [
+                    'x-show' => '! isPasswordRevealed',
+                ])
                 ->contains('.fi-icon-btn', [
                     'wire:click' => 'mountFormComponentAction(\'password\', \'regeneratePassword\')',
                 ])
@@ -30,9 +32,11 @@ test('additional suffix actions can be rendered', function () {
     registerComponent(PasswordWithAdditionalActions::class);
 
     get('/_test')
-        ->assertElementExists('.fi-pw-input-wrapper', function (AssertElement $wrapper) {
+        ->assertElementExists('.fi-input-wrp', function (AssertElement $wrapper) {
             $wrapper
-                ->contains('.fi-pw-reveal-button')
+                ->contains('.fi-icon-btn', [
+                    'x-show' => '! isPasswordRevealed',
+                ])
                 ->contains('.fi-icon-btn', [
                     'wire:click' => 'mountFormComponentAction(\'password\', \'regeneratePassword\')',
                 ])
@@ -49,7 +53,7 @@ it('can attempt to prevent password managers from injecting their buttons into t
     registerComponent(PasswordHidePasswordManagers::class);
 
     get('/_test')
-        ->assertElementExists('.fi-pw-input-wrapper', function (AssertElement $wrapper) {
+        ->assertElementExists('.fi-input-wrp', function (AssertElement $wrapper) {
             $wrapper->contains('input', [
                 'data-1p-ignore' => '',
                 'data-lpignore' => 'true',

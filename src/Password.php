@@ -8,17 +8,34 @@ use Closure;
 use Filament\Forms\Components\TextInput;
 use Rawilk\FilamentPasswordInput\Concerns\CanCopyToClipboard;
 use Rawilk\FilamentPasswordInput\Concerns\CanRegeneratePassword;
-use Rawilk\FilamentPasswordInput\Concerns\CanRevealPassword;
 
 class Password extends TextInput
 {
     use CanCopyToClipboard;
     use CanRegeneratePassword;
-    use CanRevealPassword;
-
-    protected string $view = 'filament-password-input::password';
 
     protected bool|Closure $hidePasswordManagerIcons = false;
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $this->password();
+
+        $this->revealable();
+    }
+
+    public function getExtraInputAttributes(): array
+    {
+        $extraAttributes = parent::getExtraInputAttributes();
+
+        if ($this->shouldHidePasswordManagerIcons()) {
+            $extraAttributes['data-1p-ignore'] = '';
+            $extraAttributes['data-lpignore'] = 'true';
+        }
+
+        return $extraAttributes;
+    }
 
     /**
      * Prevent password managers like 1password or LastPass from injecting buttons
