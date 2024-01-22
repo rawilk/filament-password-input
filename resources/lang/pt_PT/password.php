@@ -15,11 +15,6 @@ return [
             'success_message' => 'Palavra-passe gerada com sucesso!',
         ],
 
-        'reveal' => [
-            'show' => 'Mostrar palavra-passe',
-            'hide' => 'Esconder palavra-passe',
-        ],
-
     ],
 
 ];
