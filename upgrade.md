@@ -22,12 +22,12 @@ In 2.0, I've removed my custom action for revealing the password in favor of fil
 
 The following methods for revealing password functionality have either changed or been removed in 2.0:
 
-- `canRevealPassword` is now `revealable`
-- `showPasswordIcon` is removed
-- `hidePasswordIcon` is removed
-- `showPasswordText` is removed
-- `hidePasswordText` is removed
-- `passwordInitiallyHidden` is removed
+-   `canRevealPassword` is now `revealable`
+-   `showPasswordIcon` is removed
+-   `hidePasswordIcon` is removed
+-   `showPasswordText` is removed
+-   `hidePasswordText` is removed
+-   `passwordInitiallyHidden` is removed
 
 ## Copy password
 
@@ -48,14 +48,13 @@ Password::make()
 
 The following methods have either changed or been removed:
 
-- `copyIcon` is removed - use icon aliases instead
-- `copyIconColor` is removed - see [Copyable Method](#copyable-method)
-- `copyTooltip` is removed - modify language lines instead now
+-   `copyIcon` is removed - use icon aliases instead
+-   `copyIconColor` is removed - see [Copyable Method](#copyable-method)
+-   `copyTooltip` is removed - modify language lines instead now
 
 ### Customization
 
 Further customization required for the action can be done in a service provider by configuring the `Rawilk\ProfileFilament\Actions\CopyToClipboardAction`.
-
 
 ## Password Generation
 
@@ -81,12 +80,12 @@ Password::make()
 
 The following methods have either changed or been removed:
 
-- `generatePasswordUsing` is removed - see [Regenerate Method](#regenerate-method)
-- `regeneratePasswordIcon` is removed - use icon aliases instead
-- `regeneratePasswordIconColor` is removed - see [Regenerate Method](#regenerate-method)
-- `regeneratePasswordTooltip` is removed - modify language lines instead now
-- `notifyOnPasswordRegenerate` is removed - see [Regenerate Method](#regenerate-method)
-- `passwordRegeneratedMessage` is removed - modify language lines instead now
+-   `generatePasswordUsing` is removed - see [Regenerate Method](#regenerate-method)
+-   `regeneratePasswordIcon` is removed - use icon aliases instead
+-   `regeneratePasswordIconColor` is removed - see [Regenerate Method](#regenerate-method)
+-   `regeneratePasswordTooltip` is removed - modify language lines instead now
+-   `notifyOnPasswordRegenerate` is removed - see [Regenerate Method](#regenerate-method)
+-   `passwordRegeneratedMessage` is removed - modify language lines instead now
 
 ### Customization
 
