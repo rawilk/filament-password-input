@@ -50,4 +50,15 @@ class CopyToClipboardAction extends Action
     {
         return 'copyToClipboard';
     }
+
+    public function isHidden(): bool
+    {
+        $isHidden = parent::isHidden();
+
+        if ($isHidden) {
+            return true;
+        }
+
+        return $this->getComponent()->isDisabled();
+    }
 }
