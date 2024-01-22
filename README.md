@@ -73,19 +73,6 @@ public function form(Form $form): Form
 }
 ```
 
-### Button Icons
-
-If you want to use different icons for the on/off state of the password reveal toggle button, you can do so like this:
-
-```php
-Password::make('password')
-    ->showPasswordIcon('heroicon-o-eye')
-    ->hidePasswordIcon('heroicon-o-eye-off'),
-```
-
-Like many of the other methods available on this input, you may use a closure to dynamically set the icon instead of passing
-in a string to either method.
-
 ## Copy to Clipboard
 
 You can easily make any password input copyable by calling the `copyable()` method on the input. This will merge an action button in with any other `suffixActions`
