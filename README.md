@@ -15,9 +15,9 @@ features to your password inputs:
 -   Copy to clipboard
 -   Generate new password button
 
-> Upgrading to 2.0 from 1.x? Be sure to follow the [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrade.md) guide for breaking changes.
-
 ## Installation
+
+> Upgrading to 2.0 from 1.x? Be sure to follow the [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrade.md) guide for breaking changes.
 
 You can install the package via composer:
 
