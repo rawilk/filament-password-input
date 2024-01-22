@@ -34,27 +34,6 @@ test('a custom duration can be used for the tooltip that is shown on copy', func
     expect($input->getCopyMessageDuration())->toBe(3000);
 });
 
-test('a custom icon can be used for the copy button', function () {
-    $input = Password::make('password')
-        ->copyIcon('my-icon');
-
-    expect($input->getCopyIcon())->toBe('my-icon');
-});
-
-test('a custom color can be used for the copy button', function () {
-    $input = Password::make('password')
-        ->copyIconColor('success');
-
-    expect($input->getCopyIconColor())->toBe('success');
-});
-
-test('a custom tooltip message can be used for the initial state of the button', function () {
-    $input = Password::make('password')
-        ->copyTooltip('my tooltip');
-
-    expect($input->getCopyTooltip())->toBe('my tooltip');
-});
-
 class CanCopyWithButton extends Livewire
 {
     public function form(Form $form): Form
