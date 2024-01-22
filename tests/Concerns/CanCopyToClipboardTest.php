@@ -13,7 +13,7 @@ it('can show a button to copy to clipboard', function () {
     registerComponent(CanCopyWithButton::class);
 
     get('/_test')
-        ->assertElementExists('.fi-pw-input-wrapper', function (AssertElement $wrapper) {
+        ->assertElementExists('.fi-input-wrp', function (AssertElement $wrapper) {
             $wrapper->contains('.fi-icon-btn', [
                 'text' => 'Copy to clipboard',
             ]);

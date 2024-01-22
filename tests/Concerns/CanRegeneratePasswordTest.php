@@ -13,7 +13,7 @@ it('can show a button to generate a new password', function () {
     registerComponent(CanRegenerateWithButton::class);
 
     get('/_test')
-        ->assertElementExists('.fi-pw-input-wrapper', function (AssertElement $wrapper) {
+        ->assertElementExists('.fi-input-wrp', function (AssertElement $wrapper) {
             $wrapper->contains('.fi-icon-btn', [
                 'wire:click' => 'mountFormComponentAction(\'password\', \'regeneratePassword\')',
             ]);
