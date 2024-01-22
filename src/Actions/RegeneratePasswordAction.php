@@ -70,4 +70,16 @@ class RegeneratePasswordAction extends Action
     {
         return $this->evaluate($this->notifyOnSuccess) ?? true;
     }
+
+    public function isHidden(): bool
+    {
+        $isHidden = parent::isHidden();
+
+        if ($isHidden) {
+            return true;
+        }
+
+        return $this->getComponent()->isDisabled() ||
+            $this->getComponent()->isReadOnly();
+    }
 }
