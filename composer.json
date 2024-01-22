@@ -38,8 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rawilk\\FilamentPasswordInput\\": "src/",
-            "Rawilk\\FilamentPasswordInput\\Database\\Factories\\": "database/factories/"
+            "Rawilk\\FilamentPasswordInput\\": "src/"
         }
     },
     "autoload-dev": {
