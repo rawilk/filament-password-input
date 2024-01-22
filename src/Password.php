@@ -52,24 +52,4 @@ class Password extends TextInput
     {
         return (bool) $this->evaluate($this->hidePasswordManagerIcons);
     }
-
-    //    public function getSuffixActions(): array
-    //    {
-    //        if ($this->cachedSuffixActions) {
-    //            return $this->cachedSuffixActions;
-    //        }
-    //
-    //        $isDisabled = $this->isDisabled();
-    //        $isReadonly = $this->isReadOnly();
-    //
-    //        if (! $isDisabled && $this->isCopyable()) {
-    //            $this->suffixActions([$this->getCopyToClipboardAction()], $this->isSuffixInline);
-    //        }
-    //
-    //        if (! ($isDisabled || $isReadonly) && $this->canRegeneratePassword()) {
-    //            $this->suffixActions([$this->getRegeneratePasswordAction()], $this->isSuffixInline);
-    //        }
-    //
-    //        return parent::getSuffixActions();
-    //    }
 }
