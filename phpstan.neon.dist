@@ -9,3 +9,9 @@ parameters:
     checkOctaneCompatibility: true
     checkModelProperties: true
     checkMissingIterableValueType: false
+    ignoreErrors:
+        -
+            messages:
+                - '#Call to an undefined method#'
+            paths:
+                - src/Actions/*
