@@ -17,3 +17,8 @@ test('strict types are used in tests')
 test('only traits are put in the Concerns directory')
     ->expect('Rawilk\FilamentPasswordInput\Concerns')
     ->toBeTraits();
+
+test('actions are configured correctly')
+    ->expect('Rawilk\FilamentPasswordInput\Actions')
+    ->toBeClasses()
+    ->toHaveSuffix('Action');
