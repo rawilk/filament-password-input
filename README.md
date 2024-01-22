@@ -249,10 +249,10 @@ The icons for used in the actions on this component can be customized in a servi
 
 Here are the aliases required to modify each icon:
 
-- `filament-password-input::copy` - copy to clipboard action
-- `filament-password-input::regenerate` - regenerate password action
-- `forms::components.text-input.actions.show-password` - show password reveal button
-- `forms::components.text-input.actions.hide-password` - hide password reveal button
+-   `filament-password-input::copy` - copy to clipboard action
+-   `filament-password-input::regenerate` - regenerate password action
+-   `forms::components.text-input.actions.show-password` - show password reveal button
+-   `forms::components.text-input.actions.hide-password` - hide password reveal button
 
 ## Kitchen Sink Example
 
