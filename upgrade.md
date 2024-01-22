@@ -108,3 +108,7 @@ Likelihood of impact: Low
 Likelihood of impact: Low
 
 2.0 of this package doesn't require any custom styles, so they've all been removed.
+
+### Selectors
+
+Since we're not using any custom views or selectors anymore, you will need to target filament's input selector's instead if you were relying on that for custom css styling in 1.x of this package.
