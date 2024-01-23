@@ -250,9 +250,9 @@ Here is an example of an input with all the actions enabled:
 ```php
 Password::make('password')
     ->label('Password')
-    ->inlineSuffix()
     ->copyable(color: 'warning')
-    ->regeneratePassword(color: 'primary'),
+    ->regeneratePassword(color: 'primary')
+    ->inlineSuffix(),
 ```
 
 ![kitchen sink](https://github.com/rawilk/filament-password-input/raw/main/docs/images/kitchen-sink.png)
@@ -291,10 +291,6 @@ For convenience, you can run the setup bin script for easy installation for loca
 ```bash
 ./bin/setup.sh
 ```
-
-### Build
-
-Any time changes are made to the blade file, the `./bin/build.sh` script should be run so our css can be recompiled.
 
 ### Formatting
 
