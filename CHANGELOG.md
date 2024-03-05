@@ -2,12 +2,25 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v2.0.1 - 2024-03-05
+
+### What's Changed
+
+* Laravel 11.x Compatibility by @laravel-shift in https://github.com/rawilk/filament-password-input/pull/13
+* Bump ramsey/composer-install from 2 to 3 by @dependabot in https://github.com/rawilk/filament-password-input/pull/14
+
+### New Contributors
+
+* @laravel-shift made their first contribution in https://github.com/rawilk/filament-password-input/pull/13
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.0.0...v2.0.1
+
 ## v2.0.0 - 2024-01-23
 
 ### What's Changed
 
--   Use filament revealable flag on input instead by @rawilk in https://github.com/rawilk/filament-password-input/pull/10
--   Cleanup actions by @rawilk in https://github.com/rawilk/filament-password-input/pull/11
+- Use filament revealable flag on input instead by @rawilk in https://github.com/rawilk/filament-password-input/pull/10
+- Cleanup actions by @rawilk in https://github.com/rawilk/filament-password-input/pull/11
 
 See [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrade.md) guide for more changes.
 
@@ -17,7 +30,7 @@ See [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrad
 
 ### What's Changed
 
--   Renamed folder name (for pt) to match Filaments i18n structure by @Corvisier in https://github.com/rawilk/filament-password-input/pull/9
+- Renamed folder name (for pt) to match Filaments i18n structure by @Corvisier in https://github.com/rawilk/filament-password-input/pull/9
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.1.2...v1.1.3
 
@@ -25,11 +38,11 @@ See [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrad
 
 ### What's Changed
 
--   European Portuguese by @Corvisier in https://github.com/rawilk/filament-password-input/pull/7
+- European Portuguese by @Corvisier in https://github.com/rawilk/filament-password-input/pull/7
 
 ### New Contributors
 
--   @Corvisier made their first contribution in https://github.com/rawilk/filament-password-input/pull/7
+- @Corvisier made their first contribution in https://github.com/rawilk/filament-password-input/pull/7
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.1.1...v1.1.2
 
@@ -37,7 +50,7 @@ See [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrad
 
 ### What's Changed
 
--   Load CSS for input on demand
+- Load CSS for input on demand
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.1.0...v1.1.1
 
@@ -45,12 +58,12 @@ See [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrad
 
 ### What's Changed
 
--   Add Arabic Support ! by @EGYWEB-Mohamed in https://github.com/rawilk/filament-password-input/pull/3
--   Require a minimum of 3 characters for password generation length - https://github.com/rawilk/filament-password-input/commit/15b5e80ddd8d014b88831b945388c3b302a58193
+- Add Arabic Support ! by @EGYWEB-Mohamed in https://github.com/rawilk/filament-password-input/pull/3
+- Require a minimum of 3 characters for password generation length - https://github.com/rawilk/filament-password-input/commit/15b5e80ddd8d014b88831b945388c3b302a58193
 
 ### New Contributors
 
--   @EGYWEB-Mohamed made their first contribution in https://github.com/rawilk/filament-password-input/pull/3
+- @EGYWEB-Mohamed made their first contribution in https://github.com/rawilk/filament-password-input/pull/3
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.0.1...v1.1.0
 
@@ -58,7 +71,7 @@ See [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrad
 
 ### What's Changed
 
--   Bug fix: Use `$getExtraInputAttributeBag()` instead of `$getExtraAttributeBag()` on the input element to pull in the correct attributes
+- Bug fix: Use `$getExtraInputAttributeBag()` instead of `$getExtraAttributeBag()` on the input element to pull in the correct attributes
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v1.0.0...v1.0.1
 
