@@ -2,6 +2,22 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v2.0.2 - 2024-10-01
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/15
+* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in https://github.com/rawilk/filament-password-input/pull/16
+* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/17
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/19
+* Adds Brazilian Portuguese translation by @patriciomartinns in https://github.com/rawilk/filament-password-input/pull/18
+
+### New Contributors
+
+* @patriciomartinns made their first contribution in https://github.com/rawilk/filament-password-input/pull/18
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.0.1...v2.0.2
+
 ## v2.0.1 - 2024-03-05
 
 ### What's Changed
