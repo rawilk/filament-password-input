@@ -6,15 +6,15 @@ All notable changes to `filament-password-input` will be documented in this file
 
 ### What's Changed
 
-* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/15
-* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in https://github.com/rawilk/filament-password-input/pull/16
-* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/17
-* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/19
-* Adds Brazilian Portuguese translation by @patriciomartinns in https://github.com/rawilk/filament-password-input/pull/18
+- Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/15
+- Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in https://github.com/rawilk/filament-password-input/pull/16
+- Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/17
+- Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/19
+- Adds Brazilian Portuguese translation by @patriciomartinns in https://github.com/rawilk/filament-password-input/pull/18
 
 ### New Contributors
 
-* @patriciomartinns made their first contribution in https://github.com/rawilk/filament-password-input/pull/18
+- @patriciomartinns made their first contribution in https://github.com/rawilk/filament-password-input/pull/18
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.0.1...v2.0.2
 
@@ -22,12 +22,12 @@ All notable changes to `filament-password-input` will be documented in this file
 
 ### What's Changed
 
-* Laravel 11.x Compatibility by @laravel-shift in https://github.com/rawilk/filament-password-input/pull/13
-* Bump ramsey/composer-install from 2 to 3 by @dependabot in https://github.com/rawilk/filament-password-input/pull/14
+- Laravel 11.x Compatibility by @laravel-shift in https://github.com/rawilk/filament-password-input/pull/13
+- Bump ramsey/composer-install from 2 to 3 by @dependabot in https://github.com/rawilk/filament-password-input/pull/14
 
 ### New Contributors
 
-* @laravel-shift made their first contribution in https://github.com/rawilk/filament-password-input/pull/13
+- @laravel-shift made their first contribution in https://github.com/rawilk/filament-password-input/pull/13
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.0.0...v2.0.1
 

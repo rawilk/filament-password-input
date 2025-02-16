@@ -11,9 +11,9 @@
 `filament-password-input` is a package built for [Filament](https://filamentphp.com) that provides an enhanced password input form component that offers you the ability to add the following
 features to your password inputs:
 
--   Reveal password toggle
--   Copy to clipboard
--   Generate new password button
+- Reveal password toggle
+- Copy to clipboard
+- Generate new password button
 
 ## Installation
 
@@ -238,10 +238,10 @@ The icons for used in the actions on this component can be customized in a servi
 
 Here are the aliases required to modify each icon:
 
--   `filament-password-input::copy` - copy to clipboard action
--   `filament-password-input::regenerate` - regenerate password action
--   `forms::components.text-input.actions.show-password` - show password reveal button
--   `forms::components.text-input.actions.hide-password` - hide password reveal button
+- `filament-password-input::copy` - copy to clipboard action
+- `filament-password-input::regenerate` - regenerate password action
+- `forms::components.text-input.actions.show-password` - show password reveal button
+- `forms::components.text-input.actions.hide-password` - hide password reveal button
 
 ## Kitchen Sink Example
 
@@ -320,13 +320,13 @@ Please review [my security policy](https://github.com/rawilk/filament-password-i
 
 ## Credits
 
--   [Randall Wilk](https://github.com/rawilk)
--   [All Contributors](https://github.com/rawilk/filament-password-input/graphs/contributors)
+- [Randall Wilk](https://github.com/rawilk)
+- [All Contributors](https://github.com/rawilk/filament-password-input/graphs/contributors)
 
 ## Alternatives
 
--   [papalardo/filament-password-input](https://github.com/papalardo/filament-password-input)
--   [phpsa/filament-password-reveal](https://github.com/phpsa/filament-password-reveal)
+- [papalardo/filament-password-input](https://github.com/papalardo/filament-password-input)
+- [phpsa/filament-password-reveal](https://github.com/phpsa/filament-password-reveal)
 
 ## License
 
