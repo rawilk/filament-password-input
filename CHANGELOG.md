@@ -2,6 +2,20 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v2.1.0 - 2025-05-18
+
+### What's Changed
+
+* Bump creyD/prettier_action from 4.3 to 4.5 by @dependabot in https://github.com/rawilk/filament-password-input/pull/29
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/30
+* added dutch translations by @klaare in https://github.com/rawilk/filament-password-input/pull/28
+
+### New Contributors
+
+* @klaare made their first contribution in https://github.com/rawilk/filament-password-input/pull/28
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.0.3...v2.1.0
+
 ## v2.0.3 - 2025-02-25
 
 ### What's Changed
