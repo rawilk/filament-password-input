@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Rawilk\FilamentPasswordInput\Actions;
 
 use Closure;
+use Filament\Actions\Action;
 use Filament\Actions\Concerns\CanCustomizeProcess;
-use Filament\Forms\Components\Actions\Action;
-use Filament\Forms\Components\Component;
-use Filament\Forms\Set;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Utilities\Set;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Support\Str;
 
