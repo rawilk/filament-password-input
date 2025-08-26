@@ -79,7 +79,7 @@ class RegeneratePasswordAction extends Action
             return true;
         }
 
-        return $this->getComponent()->isDisabled() ||
-            $this->getComponent()->isReadOnly();
+        return $this->getSchemaComponent()->isDisabled() ||
+            $this->getSchemaComponent()->isReadOnly();
     }
 }

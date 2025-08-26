@@ -8,8 +8,6 @@ use Filament\Actions\Action;
 use Filament\Schemas\Components\Component;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Support\Js;
-use Rawilk\FilamentPasswordInput\Concerns\CanCopyToClipboard;
-use Rawilk\FilamentPasswordInput\Concerns\CanRegeneratePassword;
 
 class CopyToClipboardAction extends Action
 {
@@ -61,6 +59,7 @@ class CopyToClipboardAction extends Action
             return true;
         }
 
-        return $this->isDisabled();
+        return $this->getSchemaComponent()->isDisabled() ||
+            $this->getSchemaComponent()->isReadOnly();
     }
 }
