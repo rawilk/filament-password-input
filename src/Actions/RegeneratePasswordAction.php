@@ -10,6 +10,7 @@ use Filament\Actions\Concerns\CanCustomizeProcess;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Support\Facades\FilamentIcon;
+use Filament\Support\Icons\Heroicon;
 use Illuminate\Support\Str;
 
 class RegeneratePasswordAction extends Action
@@ -26,7 +27,7 @@ class RegeneratePasswordAction extends Action
 
         $this->label(__('filament-password-input::password.actions.regenerate.tooltip'));
 
-        $this->icon(FilamentIcon::resolve('filament-password-input::regenerate') ?? 'heroicon-o-key');
+        $this->icon(FilamentIcon::resolve('filament-password-input::regenerate') ?? Heroicon::OutlinedKey);
 
         $this->color('gray');
 
