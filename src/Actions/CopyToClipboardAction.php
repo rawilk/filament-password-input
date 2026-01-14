@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace Rawilk\FilamentPasswordInput\Actions;
 
-use Filament\Forms\Components\Actions\Action;
-use Filament\Forms\Components\Component;
+use Filament\Actions\Action;
+use Filament\Schemas\Components\Component;
 use Filament\Support\Facades\FilamentIcon;
+use Filament\Support\Icons\Heroicon;
 use Illuminate\Support\Js;
 
 class CopyToClipboardAction extends Action
@@ -17,7 +18,7 @@ class CopyToClipboardAction extends Action
 
         $this->label(__('filament-password-input::password.actions.copy.tooltip'));
 
-        $this->icon(FilamentIcon::resolve('filament-password-input::copy') ?? 'heroicon-m-clipboard');
+        $this->icon(FilamentIcon::resolve('filament-password-input::copy') ?? Heroicon::OutlinedClipboardDocument);
 
         $this->color('gray');
 
@@ -59,6 +60,7 @@ class CopyToClipboardAction extends Action
             return true;
         }
 
-        return $this->getComponent()->isDisabled();
+        return $this->getSchemaComponent()->isDisabled() ||
+            $this->getSchemaComponent()->isReadOnly();
     }
 }
