@@ -19,7 +19,7 @@ jobs:
       fail-fast: true
       matrix:
         php: [8.5, 8.4, 8.3, 8.2]
-        laravel: [11.*, 12.*, 13.*]
+        laravel: [11.*, 12.*]
         filament: [4.*, 5.*]
         stability: [prefer-lowest, prefer-stable]
         include:
@@ -27,8 +27,6 @@ jobs:
             testbench: 9.*
           - laravel: 12.*
             testbench: 10.*
-          - laravel: 13.*
-            testbench: 11.*
           - php: 8.2
             pest: ^3.0
           - php: 8.3
