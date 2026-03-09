@@ -8,7 +8,7 @@ use Closure;
 use Rawilk\FilamentPasswordInput\Actions\RegeneratePasswordAction;
 
 /**
- * @mixin \Filament\Forms\Components\Component
+ * @mixin \Filament\Schemas\Components\Component
  */
 trait CanRegeneratePassword
 {

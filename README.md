@@ -17,7 +17,7 @@ features to your password inputs:
 
 ## Installation
 
-> Upgrading to 2.0 from 1.x? Be sure to follow the [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrade.md) guide for breaking changes.
+> Upgrading to 3.0 from 2.x? Be sure to follow the [Upgrade](https://github.com/rawilk/filament-password-input/blob/main/upgrade.md) guide for breaking changes.
 
 You can install the package via composer:
 

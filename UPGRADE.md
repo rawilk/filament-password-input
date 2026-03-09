@@ -1,5 +1,22 @@
 # Upgrade Guide
 
+## Upgrade to 3.0 from 2.x
+
+### Breaking changes
+* This package now requires [Filament](https://filamentphp.com) 4.0 or greater.
+* This package now requires Laravel 11 or greater.
+* Change the `copyable()` method parameters to align with the new Filament copyable method:
+```php
+Password::make()
+    ->copyable(
+        condition: true,
+        copyMessage: 'Copied',
+        copyMessageDuration: 2000,
+        color: 'primary',
+    ),
+```
+
+
 ## Upgrading to 2.0 from 1.x
 
 I've attempted to document every breaking change, however I may have missed some. If you're having an issue upgrading, please raise an issue and/or PR an update to the upgrade guide if applicable.

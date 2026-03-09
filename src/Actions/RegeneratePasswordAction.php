@@ -5,11 +5,12 @@ declare(strict_types=1);
 namespace Rawilk\FilamentPasswordInput\Actions;
 
 use Closure;
+use Filament\Actions\Action;
 use Filament\Actions\Concerns\CanCustomizeProcess;
-use Filament\Forms\Components\Actions\Action;
-use Filament\Forms\Components\Component;
-use Filament\Forms\Set;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Utilities\Set;
 use Filament\Support\Facades\FilamentIcon;
+use Filament\Support\Icons\Heroicon;
 use Illuminate\Support\Str;
 
 class RegeneratePasswordAction extends Action
@@ -26,7 +27,7 @@ class RegeneratePasswordAction extends Action
 
         $this->label(__('filament-password-input::password.actions.regenerate.tooltip'));
 
-        $this->icon(FilamentIcon::resolve('filament-password-input::regenerate') ?? 'heroicon-o-key');
+        $this->icon(FilamentIcon::resolve('filament-password-input::regenerate') ?? Heroicon::OutlinedKey);
 
         $this->color('gray');
 
@@ -79,7 +80,7 @@ class RegeneratePasswordAction extends Action
             return true;
         }
 
-        return $this->getComponent()->isDisabled() ||
-            $this->getComponent()->isReadOnly();
+        return $this->getSchemaComponent()->isDisabled() ||
+            $this->getSchemaComponent()->isReadOnly();
     }
 }

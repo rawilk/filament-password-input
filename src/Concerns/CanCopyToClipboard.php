@@ -18,8 +18,13 @@ trait CanCopyToClipboard
 
     public function copyable(
         bool|Closure $condition = true,
+        string|Closure|null $copyMessage = null,
+        int|Closure|null $copyMessageDuration = null,
         string|array|Closure|null $color = null,
     ): static {
+        $this->copyMessage = $copyMessage;
+        $this->copyMessageDuration = $copyMessageDuration;
+
         $action = CopyToClipboardAction::make()->visible($condition);
 
         if ($color) {
