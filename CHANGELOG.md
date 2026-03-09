@@ -2,6 +2,14 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v2.1.1 - 2026-03-09
+
+### What's Changed
+
+* spanish translate by @gpibarra in https://github.com/rawilk/filament-password-input/pull/35
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.1.0...v2.1.1
+
 ## v3.0.0 - 2026-03-09
 
 ### What's Changed
