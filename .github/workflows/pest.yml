@@ -28,7 +28,11 @@ jobs:
           - laravel: 12.*
             testbench: 10.*
           - php: 8.2
+            filament: 4.*
             pest: ^3.0
+          - php: 8.2
+            filament: 5.*
+            pest: ^4.0
           - php: 8.3
             pest: ^4.0
           - php: 8.4
