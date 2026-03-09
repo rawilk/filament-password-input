@@ -39,12 +39,12 @@ Inside a form schema, you can use the `Password` input like this:
 
 ```php
 use Rawilk\FilamentPasswordInput\Password;
-use Filament\Forms\Form;
+use Filament\Schemas\Schema;
 
-public function form(Form $form): Form
+public function form(Schema $schema): Schema
 {
-    return $form
-        ->schema([
+    return $schema
+        ->components([
             // ...
             Password::make('password')
                 ->label('Password'),
@@ -61,12 +61,12 @@ will render the password input without the toggle button inside it:
 
 ```php
 use Rawilk\FilamentPasswordInput\Password;
-use Filament\Forms\Form;
+use Filament\Schemas\Schema;
 
-public function form(Form $form): Form
+public function form(Schema $schema): Schema
 {
-    return $form
-        ->schema([
+    return $schema
+        ->components([
             // ...
             Password::make('password')
                 ->label('Password')
@@ -231,7 +231,7 @@ This will add `data-1p-ignore` and `data-lpignore="true"` attributes to the inpu
 The icons for used in the actions on this component can be customized in a service provider by registering their aliases with filament.
 
 ```php
-\Filament\Support\Facades\FilamentIcon::register([
+Filament\Support\Facades\FilamentIcon::register([
     'filament-password-input::regenerate' => 'heroicon-o-key',
 ])
 ```
