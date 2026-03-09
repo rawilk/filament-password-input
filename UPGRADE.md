@@ -1,12 +1,24 @@
 # Upgrade Guide
 
-## Upgrade to 3.0 from 2.x
+## Upgrading to 3.0 from 2.x
 
-### Breaking changes
+## Updating Dependencies
 
-- This package now requires [Filament](https://filamentphp.com) 4.0 or greater.
-- This package now requires Laravel 11 or greater.
-- Change the `copyable()` method parameters to align with the new Filament copyable method:
+Likelihood of impact: High
+
+### Filament
+
+This package now requires [Filament](https://filamentphp.com) 4.0 or greater.
+
+### Laravel
+
+This package now requires Laravel 11 or greater.
+
+## Copyable Method Signature
+
+Likelihood of impact: Medium
+
+The method signature for the `copyable` method on the password input has changed to align with the new Filament copyable method as follows:
 
 ```php
 Password::make()
