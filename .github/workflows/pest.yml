@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [8.4, 8.3, 8.2]
+        php: [8.5, 8.4, 8.3, 8.2]
         laravel: [11.*, 12.*]
         filament: [4.*, 5.*]
         stability: [prefer-lowest, prefer-stable]
@@ -32,6 +32,8 @@ jobs:
           - php: 8.3
             pest: ^4.0
           - php: 8.4
+            pest: ^4.0
+          - php: 8.5
             pest: ^4.0
         exclude:
           - php: 8.2
