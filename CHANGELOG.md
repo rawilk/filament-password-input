@@ -2,6 +2,15 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v3.1.0 - 2026-03-09
+
+### What's Changed
+
+* Add Filament v5 compatibility to composer.json
+* Check for php 8.5 compatibility
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v3.0.0...v3.1.0
+
 ## v2.1.1 - 2026-03-09
 
 ### What's Changed
