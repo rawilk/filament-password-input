@@ -2,6 +2,31 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v3.0.0 - 2026-03-09
+
+### What's Changed
+
+* Bump creyD/prettier_action from 4.5 to 4.6 by @dependabot[bot] in https://github.com/rawilk/filament-password-input/pull/33
+* Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/rawilk/filament-password-input/pull/36
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/rawilk/filament-password-input/pull/41
+* Bump stefanzweifel/git-auto-commit-action from 5 to 7 by @dependabot[bot] in https://github.com/rawilk/filament-password-input/pull/39
+* Bump actions/checkout from 4 to 6 by @dependabot[bot] in https://github.com/rawilk/filament-password-input/pull/40
+* Filament 4 update by @Jacobtims in https://github.com/rawilk/filament-password-input/pull/38
+* spanish translate by @gpibarra in https://github.com/rawilk/filament-password-input/pull/35
+
+### Breaking Changes
+
+- Filament v4 now required
+- Laravel 11.0 or greater now required
+- PHP 8.2 or greater now required
+
+### New Contributors
+
+* @Jacobtims made their first contribution in https://github.com/rawilk/filament-password-input/pull/38
+* @gpibarra made their first contribution in https://github.com/rawilk/filament-password-input/pull/35
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.1.0...v3.0.0
+
 ## v2.1.0 - 2025-05-18
 
 ### What's Changed
