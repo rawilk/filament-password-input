@@ -59,6 +59,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          composer remove "spatie/laravel-ray" --dev --no-interaction --no-update
           composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" "filament/forms:${{ matrix.filament }}" "pestphp/pest:${{ matrix.pest }}" "pestphp/pest-plugin-laravel:${{ matrix.pest }}" "pestphp/pest-plugin-livewire:${{ matrix.pest }}" --no-interaction --no-update
           composer update --${{ matrix.stability }} --prefer-dist --no-interaction
 
