@@ -64,6 +64,9 @@
         "laravel": {
             "providers": [
                 "Rawilk\\FilamentPasswordInput\\FilamentPasswordInputServiceProvider"
+            ],
+            "dont-discover": [
+                "spatie/laravel-ray"
             ]
         }
     },
