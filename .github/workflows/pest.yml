@@ -36,6 +36,9 @@ jobs:
             pest: ^4.0
           - php: 8.5
             pest: ^4.0
+        exclude:
+          - php: 8.2
+            laravel: 13.*
 
     name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.stability }}
 
