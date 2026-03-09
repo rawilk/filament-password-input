@@ -6,13 +6,13 @@ All notable changes to `filament-password-input` will be documented in this file
 
 ### What's Changed
 
-* Bump creyD/prettier_action from 4.3 to 4.5 by @dependabot in https://github.com/rawilk/filament-password-input/pull/29
-* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/30
-* added dutch translations by @klaare in https://github.com/rawilk/filament-password-input/pull/28
+- Bump creyD/prettier_action from 4.3 to 4.5 by @dependabot in https://github.com/rawilk/filament-password-input/pull/29
+- Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/30
+- added dutch translations by @klaare in https://github.com/rawilk/filament-password-input/pull/28
 
 ### New Contributors
 
-* @klaare made their first contribution in https://github.com/rawilk/filament-password-input/pull/28
+- @klaare made their first contribution in https://github.com/rawilk/filament-password-input/pull/28
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.0.3...v2.1.0
 
@@ -20,12 +20,12 @@ All notable changes to `filament-password-input` will be documented in this file
 
 ### What's Changed
 
-* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/21
-* Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in https://github.com/rawilk/filament-password-input/pull/22
-* Laravel 12.x Compatibility by @laravel-shift in https://github.com/rawilk/filament-password-input/pull/23
-* [Chore]: Cleanup Workflows by @rawilk in https://github.com/rawilk/filament-password-input/pull/25
-* [Chore]: Remove Larastan by @rawilk in https://github.com/rawilk/filament-password-input/pull/26
-* Add php 8.4 compatiblity by @rawilk in https://github.com/rawilk/filament-password-input/pull/27
+- Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/rawilk/filament-password-input/pull/21
+- Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in https://github.com/rawilk/filament-password-input/pull/22
+- Laravel 12.x Compatibility by @laravel-shift in https://github.com/rawilk/filament-password-input/pull/23
+- [Chore]: Cleanup Workflows by @rawilk in https://github.com/rawilk/filament-password-input/pull/25
+- [Chore]: Remove Larastan by @rawilk in https://github.com/rawilk/filament-password-input/pull/26
+- Add php 8.4 compatiblity by @rawilk in https://github.com/rawilk/filament-password-input/pull/27
 
 **Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v2.0.2...v2.0.3
 
