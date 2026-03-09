@@ -28,15 +28,14 @@ jobs:
           - laravel: 12.*
             testbench: 10.*
           - php: 8.2
-            filament: 4.*
             pest: ^3.0
-          - php: 8.2
-            filament: 5.*
-            pest: ^4.0
           - php: 8.3
             pest: ^4.0
           - php: 8.4
             pest: ^4.0
+        exclude:
+          - php: 8.2
+            filament: 5.*
 
     name: P${{ matrix.php }} - L${{ matrix.laravel }} - F${{ matrix.filament }} - ${{ matrix.stability }}
 
