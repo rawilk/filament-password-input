@@ -6,7 +6,7 @@ use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
-use Filament\Forms\Form;
+use Filament\Schemas\Schema;
 use Livewire\Component;
 use Rawilk\FilamentPasswordInput\Password;
 
@@ -18,10 +18,10 @@ it('can be rendered', function () {
         use InteractsWithActions;
         use InteractsWithForms;
 
-        public function form(Form $form): Form
+        public function form(Schema $schema): Schema
         {
-            return $form
-                ->schema([
+            return $schema
+                ->components([
                     Password::make('password')
                         ->copyable()
                         ->regeneratePassword(),
