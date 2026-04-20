@@ -5,10 +5,11 @@ declare(strict_types=1);
 namespace Rawilk\FilamentPasswordInput\Concerns;
 
 use Closure;
+use Filament\Schemas\Components\Component;
 use Rawilk\FilamentPasswordInput\Actions\RegeneratePasswordAction;
 
 /**
- * @mixin \Filament\Schemas\Components\Component
+ * @mixin Component
  */
 trait CanRegeneratePassword
 {
