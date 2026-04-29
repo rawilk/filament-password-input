@@ -20,7 +20,6 @@ jobs:
       matrix:
         php: [8.5, 8.4, 8.3, 8.2]
         laravel: [11.*, 12.*, 13.*]
-#        filament: [4.*, 5.*]
         include:
           - laravel: 11.*
             testbench: ^9.0
@@ -28,14 +27,6 @@ jobs:
             testbench: ^10.0
           - laravel: 13.*
             testbench: ^11.0
-#          - php: 8.2
-#            pest: ^3.0
-#          - php: 8.3
-#            pest: ^4.0
-#          - php: 8.4
-#            pest: ^4.0
-#          - php: 8.5
-#            pest: ^4.0
         exclude:
           - php: 8.2
             laravel: 13.*
