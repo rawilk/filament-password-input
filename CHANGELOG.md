@@ -2,6 +2,19 @@
 
 All notable changes to `filament-password-input` will be documented in this file
 
+## v3.2.0 - 2026-04-29
+
+### What's Changed
+
+* Add support for Laravel 13 by @hamrak in https://github.com/rawilk/filament-password-input/pull/44
+* Bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 by @dependabot[bot] in https://github.com/rawilk/filament-password-input/pull/43
+
+### New Contributors
+
+* @hamrak made their first contribution in https://github.com/rawilk/filament-password-input/pull/44
+
+**Full Changelog**: https://github.com/rawilk/filament-password-input/compare/v3.1.0...v3.2.0
+
 ## v3.1.0 - 2026-03-09
 
 ### What's Changed
